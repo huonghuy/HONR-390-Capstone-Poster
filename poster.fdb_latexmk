@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex poster"] 1731962369.14791 "poster.aux" "poster.bbl" "poster" 1731962400.99517 0
+["bibtex poster"] 1731962369.14791 "poster.aux" "poster.bbl" "poster" 1731963431.32657 0
   "./poster.bib" 1731960394.72707 235 6d9f7970dd54b7263028c7c9348909f0 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "poster.aux" 1731962400.54057 1508 2367da94ddc6eea541f58ea282d96ead "lualatex"
+  "poster.aux" 1731963430.87714 1508 2367da94ddc6eea541f58ea282d96ead "lualatex"
   (generated)
   "poster.bbl"
   "poster.blg"
   (rewritten before read)
-["lualatex"] 1731962398.32727 "/Users/huyhuong/Git-Repos/UB---Senior-Capstone-Poster/poster.tex" "poster.pdf" "poster" 1731962400.99531 0
-  "/Users/huyhuong/Git-Repos/UB---Senior-Capstone-Poster/poster.tex" 1731962398.12582 8269 a1b297ec20917e2b28fa5b31df7bf0b6 ""
+["lualatex"] 1731963428.66403 "/Users/huyhuong/Git-Repos/UB---Senior-Capstone-Poster/poster.tex" "poster.pdf" "poster" 1731963431.32673 0
+  "/Users/huyhuong/Git-Repos/UB---Senior-Capstone-Poster/poster.tex" 1731963428.44258 8400 f894a0c5f7d6c6ca48bb0d9dff981546 ""
   "/Users/huyhuong/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lato-bold.luc" 1731960856.81962 1525262 0d1dc993472f553cc8852c7c1c7aa069 ""
   "/Users/huyhuong/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lato-bolditalic.luc" 1731960855.58909 1554217 39f05b469aa2cd86f00444f8f8b525f5 ""
   "/Users/huyhuong/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lato-italic.luc" 1731960858.02952 1580286 b7e0641444610cd14c8d7c46d80f3cb7 ""
@@ -374,11 +374,11 @@
   "beamercolorthemeUBridgeport.sty" 1731960394.72548 1633 e81f650797918712ec374e8148905aef ""
   "beamerthemegemini.sty" 1731960394.72559 6666 2e7e464a50fa25f19a81b86fa01ef9db ""
   "logos/ub-logo-stacked-KO.png" 1731960394.72599 85086 b244a5be916e93d0f155734d6905a86c ""
-  "poster.aux" 1731962400.54057 1508 2367da94ddc6eea541f58ea282d96ead "lualatex"
+  "poster.aux" 1731963430.87714 1508 2367da94ddc6eea541f58ea282d96ead "lualatex"
   "poster.bbl" 1731962369.27554 224 0c88876528be380fa87e30a1f810603c "bibtex poster"
-  "poster.nav" 1731962400.54186 743 ec8163753a9ead29c9d0d25d1e15d729 "lualatex"
-  "poster.out" 1731962400.54151 83 e997602596a1dc063e0191f5da100f2a "lualatex"
-  "poster.tex" 1731962398.12582 8269 a1b297ec20917e2b28fa5b31df7bf0b6 ""
+  "poster.nav" 1731963430.87801 743 ec8163753a9ead29c9d0d25d1e15d729 "lualatex"
+  "poster.out" 1731963430.87773 83 e997602596a1dc063e0191f5da100f2a "lualatex"
+  "poster.tex" 1731963428.44258 8400 f894a0c5f7d6c6ca48bb0d9dff981546 ""
   (generated)
   "poster.aux"
   "poster.log"
