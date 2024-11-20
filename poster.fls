@@ -1,6 +1,6 @@
-PWD /Users/huyhuong/Git-Repos/UB---Senior-Capstone-Poster
+PWD /Users/huyhuong/Git-Repos/HONR-390-Senior-Capstone
 INPUT /usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT /Users/huyhuong/Git-Repos/UB---Senior-Capstone-Poster/poster.tex
+INPUT ./poster.tex
 OUTPUT poster.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ltluatex.lua
