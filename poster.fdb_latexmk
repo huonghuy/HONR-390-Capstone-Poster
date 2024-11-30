@@ -1,13 +1,14 @@
 # Fdb version 4
-["bibtex poster"] 1731962369.14791 "poster.aux" "poster.bbl" "poster" 1731970218.52645 0
-  "./poster.bib" 1731966223.59947 235 6d9f7970dd54b7263028c7c9348909f0 ""
+["bibtex poster"] 1732566527.99509 "poster.aux" "poster.bbl" "poster" 1732566530.85912 0
+  "./poster.bib" 1732566527.78823 269 1043eee81898db8f9add3e5f58031c2a ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "poster.aux" 1731970218.11585 1508 2367da94ddc6eea541f58ea282d96ead "pdflatex"
+  "poster.aux" 1732566530.41647 1514 8c5ee19242adf10f640ac4754dbfcbac "lualatex"
   (generated)
   "poster.bbl"
   "poster.blg"
   (rewritten before read)
-["pdflatex"] 1731970216.30044 "poster.tex" "poster.pdf" "poster" 1731970218.52656 0
+["lualatex"] 1732566528.16334 "/Users/huyhuong/Git-Repos/HONR-390-Senior-Capstone/poster.tex" "poster.pdf" "poster" 1732566530.85927 0
+  "/Users/huyhuong/Git-Repos/HONR-390-Senior-Capstone/poster.tex" 1732566504.06455 8151 8ec0f43d3e111443cf36f4579fc030ce ""
   "/Users/huyhuong/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lato-bold.luc" 1731960856.81962 1525262 0d1dc993472f553cc8852c7c1c7aa069 ""
   "/Users/huyhuong/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lato-bolditalic.luc" 1731960855.58909 1554217 39f05b469aa2cd86f00444f8f8b525f5 ""
   "/Users/huyhuong/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lato-italic.luc" 1731960858.02952 1580286 b7e0641444610cd14c8d7c46d80f3cb7 ""
@@ -368,16 +369,16 @@
   "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/luaotfload-tounicode.lua" 1709155629 7528 245271ce518c136c96f22fee6cb810ab ""
   "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/luaotfload-unicode.lua" 1709155629 7917 cebc6454abe34f2fe1c1248f8b2453da ""
   "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1709155629 13565 50482dad4c221a79dbdbb982122baf8c ""
-  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731960861 5475505 9858817de6e728d163c121232b884c29 ""
-  "/usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1731531338 5649093 d24112bfe79dafe707e01df08f9ed666 ""
+  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1732476477 5476123 0aaf5f0b94d004f6c94b5aad0957af23 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt" 1732476563 5648766 427ccb0dec23ca278e3a10509ed314db ""
   "beamercolorthemeUBridgeport.sty" 1731966223.59735 1633 e81f650797918712ec374e8148905aef ""
-  "beamerthemegemini.sty" 1731966223.59756 6666 2e7e464a50fa25f19a81b86fa01ef9db ""
+  "beamerthemegemini.sty" 1732566111.43526 6666 2e7e464a50fa25f19a81b86fa01ef9db ""
   "logos/ub-logo-stacked-KO.png" 1731966223.598 85086 b244a5be916e93d0f155734d6905a86c ""
-  "poster.aux" 1731970218.11585 1508 2367da94ddc6eea541f58ea282d96ead "pdflatex"
-  "poster.bbl" 1731966223.59937 224 0c88876528be380fa87e30a1f810603c "bibtex poster"
-  "poster.nav" 1731970218.11694 743 ec8163753a9ead29c9d0d25d1e15d729 "pdflatex"
-  "poster.out" 1731970218.11668 83 e997602596a1dc063e0191f5da100f2a "pdflatex"
-  "poster.tex" 1731966223.60153 8400 f894a0c5f7d6c6ca48bb0d9dff981546 ""
+  "poster.aux" 1732566530.41647 1514 8c5ee19242adf10f640ac4754dbfcbac "lualatex"
+  "poster.bbl" 1732566528.13469 257 69bf2dd3f3f1131352a40d978b80ad34 "bibtex poster"
+  "poster.nav" 1732566530.41761 743 ec8163753a9ead29c9d0d25d1e15d729 "lualatex"
+  "poster.out" 1732566530.41732 83 e997602596a1dc063e0191f5da100f2a "lualatex"
+  "poster.tex" 1732566504.06455 8151 8ec0f43d3e111443cf36f4579fc030ce ""
   (generated)
   "poster.aux"
   "poster.log"
