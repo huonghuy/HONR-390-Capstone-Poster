@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.11.30)  1 DEC 2024 20:00
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.11.30)  2 DEC 2024 13:13
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/huyhuong/Git-Repos/HONR-390-Senior-Capstone/poster.tex
@@ -656,11 +656,11 @@ Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on inpu
 Package beamerposter Info: finished size input check. on input line 130.
 Package beamerposter Info: custom poster width=91.44 on input line 130.
 Package beamerposter Info: custom poster height=60.96 on input line 130.
-Package beamerposter Info: myfontscale=1.0 on input line 130.
+Package beamerposter Info: myfontscale=1.1 on input line 130.
  ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-SUB ) ) ( FP-UPN ( FP-SUB ) )
 Package beamerposter Info: paperwidth=2601.72006pt, paperheight=1734.48018pt on input line 173.
 Package beamerposter Info: textwidth=2573.2673pt, textheight=1706.02742pt on input line 174.
-Package beamerposter Info: fontscale=1.0, myfontscale=1.00 on input line 175.
+Package beamerposter Info: fontscale=1.0, myfontscale=1.10 on input line 175.
  ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) )) (./beamerthemegemini.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
@@ -964,7 +964,14 @@ Package pgfplots info on input line 82: Found new luatex: initializing lua comma
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/local/texlive/2024/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+))) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.colorbrewer.code.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarycolorbrewer.code.tex)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.statistics.code.tex) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf-pie/pgf-pie.sty
+Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/Tikz package.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf-pie/tikzlibrarypie.code.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+\pgfpie@angleEnd=\dimen340
+\pgfpie@explodeLength=\count392
+\pgfpie@colorLength=\count393
+\pgfpie@sliceLength=\count394
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 )
 \sepwidth=\skip86
@@ -972,31 +979,35 @@ Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 <logos/ub-logo-stacked-KO.png, id=10, 412.6617pt x 264.7491pt>
 File: logos/ub-logo-stacked-KO.png Graphic file (type png)
 <use logos/ub-logo-stacked-KO.png>
-Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 67.
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 70.
+(luatex.def)             Requested size: 310.4589pt x 199.16928pt.
+File: logos/ub-logo-stacked-KO.png Graphic file (type png)
+<use logos/ub-logo-stacked-KO.png>
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 71.
 (luatex.def)             Requested size: 310.4589pt x 199.16928pt.
  (./poster.aux)
 \openout1 = poster.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1034,16 +1045,16 @@ LaTeX Font Info:    ... okay on input line 74.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
-\scratchdimen=\dimen340
+\scratchcounter=\count395
+\scratchdimen=\dimen341
 \scratchbox=\box84
-\nofMPsegments=\count393
-\nofMParguments=\count394
+\nofMPsegments=\count396
+\nofMParguments=\count397
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count395
-\MPscratchDim=\dimen341
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
+\MPscratchCnt=\count398
+\MPscratchDim=\dimen342
+\MPnumerator=\count399
+\makeMPintoPDFobject=\count400
 \everyMPtoPDFconversion=\toks59
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1051,7 +1062,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 77.
  (./poster.out) (./poster.out)
 \@outlinefile=\write5
 
@@ -1069,37 +1080,56 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.14).
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 (./poster.nav)
 File: logos/ub-logo-stacked-KO.png Graphic file (type png)
 <use logos/ub-logo-stacked-KO.png>
-Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 74.
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 77.
 (luatex.def)             Requested size: 310.4589pt x 199.16928pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 74.
+LaTeX Font Info:    Calculating math sizes for size <13.2> on input line 77.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 77.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 74.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 77.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 74.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 77.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 74.
-LaTeX Font Info:    Calculating math sizes for size <35.83> on input line 74.
+(Font)              <6.59999> on input line 77.
+LaTeX Font Info:    Calculating math sizes for size <39.41> on input line 77.
 File: logos/ub-logo-stacked-KO.png Graphic file (type png)
 <use logos/ub-logo-stacked-KO.png>
-Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 195.
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 77.
 (luatex.def)             Requested size: 310.4589pt x 199.16928pt.
- (./poster.bbl)
+File: logos/ub-logo-stacked-KO.png Graphic file (type png)
+<use logos/ub-logo-stacked-KO.png>
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 209.
+(luatex.def)             Requested size: 310.4589pt x 199.16928pt.
+File: logos/ub-logo-stacked-KO.png Graphic file (type png)
+<use logos/ub-logo-stacked-KO.png>
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 209.
+(luatex.def)             Requested size: 310.4589pt x 199.16928pt.
+
+Overfull \hbox (28.48846pt too wide) in paragraph at lines 209--209
+ [][] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <27.37> on input line 209.
+(./poster.bbl)
 
 File: logos/ub-logo-stacked-KO.png Graphic file (type png)
 <use logos/ub-logo-stacked-KO.png>
-Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 195.
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 209.
+(luatex.def)             Requested size: 310.4589pt x 199.16928pt.
+File: logos/ub-logo-stacked-KO.png Graphic file (type png)
+<use logos/ub-logo-stacked-KO.png>
+Package luatex.def Info: logos/ub-logo-stacked-KO.png  used on input line 209.
 (luatex.def)             Requested size: 310.4589pt x 199.16928pt.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1123,19 +1153,19 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39936 strings out of 475630
- 195340,1977958 words of node,token memory allocated
- 46178 words of node memory still in use:
-   298 hlist, 36 vlist, 35 rule, 279 disc, 58 local_par, 24 math, 1099 glue, 514 kern, 141 penalty, 3119 glyph, 1053 attribute, 82 glue_spec, 1053 attribute_list, 9 write, 411 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 2 pdf_dest, 1 pdf_action, 190 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:1,2:432,3:1734,4:717,5:1599,6:181,7:13110,8:2,9:1261,10:15,11:855
- 61633 multiletter control sequences out of 65536+600000
- 110 fonts using 17067439 bytes
- 128i,20n,116p,945b,2650s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2024/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf></usr/local/texlive/2024/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi12.pfb>
-Output written on poster.pdf (1 page, 107216 bytes).
+ 41909 strings out of 475630
+ 195339,1977958 words of node,token memory allocated
+ 51672 words of node memory still in use:
+   450 hlist, 41 vlist, 42 rule, 262 disc, 66 local_par, 16 math, 1435 glue, 555 kern, 152 penalty, 3133 glyph, 1390 attribute, 82 glue_spec, 1390 attribute_list, 9 write, 467 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 2 pdf_dest, 1 pdf_action, 190 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
+   avail lists: 2:452,3:1944,4:717,5:1722,6:205,7:14136,8:2,9:1753,10:13,11:804
+ 63556 multiletter control sequences out of 65536+600000
+ 112 fonts using 17193375 bytes
+ 128i,20n,116p,1132b,1527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf></usr/local/texlive/2024/texmf-dist/fonts/truetype/typoland/lato/Lato-Light.ttf></usr/local/texlive/2024/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></usr/local/texlive/2024/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf>
+Output written on poster.pdf (1 page, 100006 bytes).
 
-PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+PDF statistics: 66 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 
