@@ -11,7 +11,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 % \usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
-\usepackage[size=custom,width=91.44,height=60.96,scale=1.0] {beamerposter} % centimeter - Standard Landscape
+\usepackage[size=custom,width=91.44,height=60.96,scale=1.1] {beamerposter} % centimeter - Standard Landscape
 
 %\usepackage[size=custom,width=60.96,height=91.44,scale=1.0] {beamerposter} % centimeter - UBRise Portrait
 
@@ -21,7 +21,10 @@
 \usepackage{booktabs}
 \usepackage{tikz}
 \usepackage{pgfplots}
-\pgfplotsset{compat=1.14}
+\usepgfplotslibrary{colorbrewer}
+\usepgfplotslibrary{statistics}
+\pgfplotsset{compat=1.18}
+\usepackage{pgf-pie}
 \usepackage{anyfontsize}
 
 % ====================
@@ -41,11 +44,11 @@
 % Title
 % ====================
 \section{Header}
-\title{Recycling in Seaside Park: A brief analysis on plastic polution along Long Island Sound}
+\title{Cleaning up Seaside Park: A brief analysis on beach pollution along Long Island Sound}
 
 \author{Huy Huong\inst{1} \and Samantha Targonski\inst{1} \and Alexandra Mones\inst{2} \and Emmanuel Ugbomah\inst{2}}
 
-\institute[UB]{Senior Capstone} 
+\institute[UB]{HONR-390/CAPS-390 Senior Capstone --- Island of Misfits} 
 \section{Footer}
 % ====================
 % Footer (optional)
@@ -80,38 +83,23 @@
         \section{Abstract}
         \begin{block}{Introduction}
 
-          Long Island Sound, a vital estuary located between Connecticut and Long Island, is an ecological and economic hub, supporting diverse marine life, recreational activities, and commercial industries. However, like many coastal regions, the "Sound" faces significant environmental challenges, one of the most pressing being the growing issue of litter. From plastic debris and fishing gear to food wrappers and cigarette butts, litter in the Sound poses threats to water quality, wildlife, and human health. The accumulation of waste not only harms marine species but also impacts local economies reliant on tourism and fishing. This research poster explores the sources, types, and consequences of litter in Long Island Sound, as well as potential solutions to mitigate this growing problem and protect this invaluable resource for future generations. \cite{STS_CT_Cleanup}
+          Long Island Sound, a vital estuary located between Connecticut and Long Island, serves as an ecological and economic hub, supporting diverse marine life, recreational activities, and commercial industries. However, like many coastal regions, the Sound faces significant environmental challenges, with one of the most pressing issues being the growing problem of litter. From plastic debris and discarded fishing gear to food wrappers and cigarette butts, litter in the Sound poses threats to water quality, wildlife, and human health. The accumulation of waste not only harms marine species but also affects local economies that rely on tourism and fishing. While organizations like Save the Sound \cite{STS_CT_Cleanup} work across Connecticut to provide resources and organize local cleanups to reduce overall pollution, more action is needed. This research poster examines the sources, types, and consequences of litter in Long Island Sound and explores potential solutions to mitigate this issue, protecting this invaluable resource for future generations.
 
         \end{block}
 
-        \begin{block}{Research Objectives \& Methodology}
+        \begin{block}{Research Objectives}
 
-          This research analyzes the amount of litter collected at Seaside Park on a given day to estimate yearly production and local contributions. It also analyzes data collected from a Google Form sent out to students of the Fall 2024 Senior Capstone in order to gauge into the student body perspective of beach pollution.
-          \\
-          \textbf{Background:}
+          This research examines the volume of litter collected at Seaside Park on a single day to estimate annual waste generation and identify local sources. The study aims to determine the most common types of litter found in the park and gather survey data to develop strategies for reducing waste.
+
+        \end{block}
+
+        \begin{block}{Methodology}
             \begin{itemize}
-              \item \textbf{Mauris tempor} risus nulla, sed ornare
-              \item \textbf{Libero tincidunt} a duis congue vitae
-              \item \textbf{Dui ac pretium} morbi justo neque, ullamcorper
+              \item Surveyed the Fall 2024 Senior Capstone course on Beach Pollution
+              \item Performed field research by going to Seaside Park and recording litter found along a section of the walkway.
             \end{itemize}
 
-          Eget augue porta, bibendum venenatis tortor. Vivamus 
-          congue volutpat elit non semper. Praesent molestie nec erat ac
-          interdum. In quis suscipit erat. \textbf{Phasellus mauris felis, molestie
-          ac pharetra quis}, tempus nec ante. Donec finibus ante vel purus mollis
-
-          \begin{enumerate}
-            \item \textbf{Morbi mauris purus}, egestas at vehicula et, convallis
-              accumsan orci. Orci varius natoque penatibus et magnis dis parturient
-              montes, nascetur ridiculus mus.
-            \item \textbf{Cras vehicula blandit urna ut maximus}. Aliquam blandit nec
-              massa ac sollicitudin. Curabitur cursus, metus nec imperdiet bibendum,
-              velit lectus faucibus dolor, quis gravida metus mauris gravida turpis.
-            \item \textbf{Vestibulum et massa diam}. Phasellus fermentum augue non
-              nulla accumsan, non rhoncus lectus condimentum.
-          \end{enumerate}
         \end{block}
-
       \end{column}
 
       \separatorcolumn
@@ -120,27 +108,60 @@
 
         \begin{block}{Results}
 
-          \begin{figure}
+          \begin{figure}[1]
             \centering
             \begin{tikzpicture}
-              \begin{axis}[
-                  scale only axis,
-                  no markers,
-                  domain=0:2*pi,
-                  samples=100,
-                  axis lines=center,
-                  axis line style={-},
-                  ticks=none]
-                \addplot[red] {sin(deg(x))};
-                \addplot[blue] {cos(deg(x))};
-              \end{axis}
+                \pie[
+                    radius=3.5,
+                    text=legend,
+                    font =\small,
+                    color={cyan, orange}
+                ]{
+                    61.5/Summer,
+                    38.5/Fall
+                }
             \end{tikzpicture}
-            \caption{Insert Google Form Data Here}
-          \end{figure}
+            \caption{In what season do you usually visit any beach along the Long Island Sound?}
+        \end{figure}
+        
+        % Second Pie Chart
+        \begin{figure}[2]
+            \centering
+            \begin{tikzpicture}
+                \pie[
+                    radius=3.5,
+                    text=legend,
+                    font =\small,
+                    color={purple, 
+                           pink, 
+                           orange, 
+                           green},
+                ]{
+                    7.7/Always,
+                    61.5/Often,
+                    23.1/Sometimes,
+                    7.7/Rarely
+                }
+            \end{tikzpicture}
+            \caption{How often do you see trash at CT beaches?}
+        \end{figure}
+
           
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
-          scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
+          TODO: Insert Beach Cleanup data here
+          \begin{table}
+            \centering
+            \begin{tabular}{l r r c}
+              \toprule
+              \textbf{Item} & \textbf{Quantity} & \textbf{Third column} & \textbf{Fourth} \\
+              \midrule
+              Foo & 13.37 & 384,394 & $\alpha$ \\
+              Bar & 2.17 & 1,392 & $\beta$ \\
+              Baz & 3.14 & 83,742 & $\delta$ \\
+              Qux & 7.59 & 974 & $\gamma$ \\
+              \bottomrule
+            \end{tabular}
+            \caption{A table caption.}
+          \end{table}
 
         \end{block}
 
@@ -155,22 +176,6 @@
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
           inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
           scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
-
-          \begin{table}
-            \centering
-            \begin{tabular}{l r r c}
-              \toprule
-              \textbf{First column} & \textbf{Second column} & \textbf{Third column} & \textbf{Fourth} \\
-              \midrule
-              Foo & 13.37 & 384,394 & $\alpha$ \\
-              Bar & 2.17 & 1,392 & $\beta$ \\
-              Baz & 3.14 & 83,742 & $\delta$ \\
-              Qux & 7.59 & 974 & $\gamma$ \\
-              \bottomrule
-            \end{tabular}
-            \caption{A table caption.}
-          \end{table}
-
 
         \end{block}
 
