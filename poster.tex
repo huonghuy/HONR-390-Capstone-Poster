@@ -107,62 +107,69 @@
       \begin{column}{\colwidth}
 
         \begin{block}{Results}
-
-          \begin{figure}[1]
-            \centering
-            \begin{tikzpicture}
-                \pie[
-                    radius=3.5,
-                    text=legend,
-                    font =\small,
-                    color={cyan, orange}
-                ]{
-                    61.5/Summer,
-                    38.5/Fall
-                }
-            \end{tikzpicture}
-            \caption{In what season do you usually visit any beach along the Long Island Sound?}
-        \end{figure}
-        
-        % Second Pie Chart
-        \begin{figure}[2]
-            \centering
-            \begin{tikzpicture}
-                \pie[
-                    radius=3.5,
-                    text=legend,
-                    font =\small,
-                    color={purple, 
-                           pink, 
-                           orange, 
-                           green},
-                ]{
-                    7.7/Always,
-                    61.5/Often,
-                    23.1/Sometimes,
-                    7.7/Rarely
-                }
-            \end{tikzpicture}
-            \caption{How often do you see trash at CT beaches?}
-        \end{figure}
-
-          
-          TODO: Insert Beach Cleanup data here
+            Insert text here if necessary
+            \begin{figure}[h!]
+                \centering
+                % First Pie Chart
+                \begin{minipage}[t]{0.45\textwidth}
+                    \centering
+                    \begin{tikzpicture}
+                        \pie[
+                            radius=3.5,
+                            text=legend,
+                            font=\small,
+                            color={cyan, orange}
+                        ]{
+                            61.5/Summer,
+                            38.5/Fall
+                        }
+                    \end{tikzpicture}
+                    \caption{\centering In what season do you usually visit any beach along the Long Island Sound?}
+                \end{minipage}%
+                \hfill
+                % Second Pie Chart
+                \begin{minipage}[t]{0.45\textwidth}
+                    \centering
+                    \begin{tikzpicture}
+                        \pie[
+                            radius=3.5,
+                            text=legend,
+                            font=\small,
+                            color={purple, pink, orange, green}
+                        ]{
+                            7.7/Always,
+                            61.5/Often,
+                            23.1/Sometimes,
+                            7.7/Rarely
+                        }
+                    \end{tikzpicture}
+                    \caption{\centering How often do you see trash at CT beaches?}
+                \end{minipage}
+            \end{figure}
+        Insert text here if necessary
           \begin{table}
             \centering
-            \begin{tabular}{l r r c}
+            \begin{tabular}{l r }
               \toprule
-              \textbf{Item} & \textbf{Quantity} & \textbf{Third column} & \textbf{Fourth} \\
+              \textbf{Item} & \textbf{Quantity} \\
               \midrule
-              Foo & 13.37 & 384,394 & $\alpha$ \\
-              Bar & 2.17 & 1,392 & $\beta$ \\
-              Baz & 3.14 & 83,742 & $\delta$ \\
-              Qux & 7.59 & 974 & $\gamma$ \\
+              Bottles/Cups/Cans& 12\\
+              Takeout Containers& 4\\
+              Bags& 7\\
+              Glass& 18\\
+              Large Items& 3\\
+              
               \bottomrule
             \end{tabular}
-            \caption{A table caption.}
+            \caption{Litter picked up on 11/25/24.}
           \end{table}
 
+
+
+          We need to figure out how to fill the space either before/between/after the graphs and table\par
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
+          scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
         \end{block}
 
       \end{column}
@@ -173,6 +180,8 @@
 
         \begin{block}{Discussion}
 
+
+          Use this section to discuss the results and how to interpret them \par
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
           inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
           scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
@@ -180,7 +189,7 @@
         \end{block}
 
         \begin{block}{Conclusion}
-
+          Can someone write here a short conclusion on the entire project and then we can edit from there? \par
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
           inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
           scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
